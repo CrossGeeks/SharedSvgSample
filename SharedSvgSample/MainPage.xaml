@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:SharedSvgSample"
+             x:Class="SharedSvgSample.MainPage" 		
+             xmlns:ffimageloadingsvg="clr-namespace:FFImageLoading.Svg.Forms;assembly=FFImageLoading.Svg.Forms">
+
+    <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+        <ffimageloadingsvg:SvgCachedImage WidthRequest="100" HeightRequest="100" Source="resource://SharedSvgSample.Resources.bug.svg"/>
+        <ffimageloadingsvg:SvgCachedImage WidthRequest="100" HeightRequest="100" Source="resource://SharedSvgSample.Resources.camera.svg"/>
+        <ffimageloadingsvg:SvgCachedImage WidthRequest="100" HeightRequest="100" Source="resource://SharedSvgSample.Resources.fingerprint.svg"/>
+    </StackLayout>
+
+</ContentPage>
